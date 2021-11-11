@@ -1,9 +1,8 @@
-import "../Header/header.css"
+import "../Header/header.css";
 
 function Header() {
-
     return(
-<>
+        <>
         <div className="barra">
         <header>
             <a href="./index.html"></a> <h1 className="firma animate__animated animate animate__flip">ELECTRIFICA</h1>
