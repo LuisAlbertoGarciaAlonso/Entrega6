@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Header from './Components/Header/Header';
 import ItemListContainer from "./Components/ItemListContainer/ItemListContainer"
 import reportWebVitals from './reportWebVitals';
+import ItemCount from "../src/ItemCount/ItemCount"
 
 
 
@@ -10,6 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Header />
     <ItemListContainer greeting = "bienvenidos!"/>
+    <ItemCount/>
   </React.StrictMode>,
   document.getElementById('root')
 );
