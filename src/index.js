@@ -9,7 +9,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <Header />
-    <ItemListContainer/>
+    <ItemListContainer greeting = "bienvenidos!"/>
   </React.StrictMode>,
   document.getElementById('root')
 );

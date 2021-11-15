@@ -3,12 +3,12 @@ import { render } from "@testing-library/react"
 const ItemListContainer = (props) => {
     return(
         <>
-        <h1>Hola, {props.name}</h1>
+        <h1>Hola, {props.greeting}</h1>
         </>
     )
 }
 
-render(<ItemListContainer greeting= "Gracias por ingresar en nuestra pagina"/>,
-document.getElementById("root"))
+// render(<ItemListContainer greeting= "Gracias por ingresar en nuestra pagina"/>,
+// document.getElementById("root"))
 
 export default ItemListContainer

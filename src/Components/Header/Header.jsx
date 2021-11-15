@@ -1,3 +1,4 @@
+import CartWidget from "../CartWidget/CartWidget";
 import "../Header/header.css";
 
 function Header() {
@@ -35,6 +36,7 @@ function Header() {
                     <li><a href="./ofertas.html">Ofertas</a></li>
                 </ul>
                 </nav>
+                <CartWidget />
             </div>
 </>
     )
