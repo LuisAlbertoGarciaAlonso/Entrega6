@@ -1,9 +1,10 @@
 import { render } from "@testing-library/react"
+import "../ItemListContainer/item.css"
 
 const ItemListContainer = (props) => {
     return(
         <>
-        <h1>Hola, {props.greeting}</h1>
+        <h1 className="saludo" >Hola, {props.greeting}</h1>
         </>
     )
 }

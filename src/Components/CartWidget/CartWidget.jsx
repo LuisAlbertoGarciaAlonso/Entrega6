@@ -1,4 +1,5 @@
 import iconoCarrito from "../../assets/iconoCarrito.jpg"
+import "../../assets/icono.css";
 
 const CartWidget = (props) => {
     return(
