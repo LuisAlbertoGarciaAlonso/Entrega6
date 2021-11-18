@@ -10,7 +10,7 @@ console.log("soy el numero 3");
 
 const products = [
     {
-    product1: "playera",
+    name: "playera",
     color:"red",
     id: 1   
     },
@@ -65,13 +65,13 @@ setTimeout(() =>{
 //MAP
 {
 products.map((products,index)=>{ //index va a regresar indice el producto
-    console.log(products.product1)//solo trae el nombre
+    console.log(products.name)//solo trae el nombre
     console.log(products.color)//solo trae el color
     console.log(products.id)//solo trae el id
 return(
     <div key={product1.id} >{/*hay que darle un key con prop porque sino larga error*/}
 
-        <h1>{products.product1}</h1> {/*me trae el nombre en un h1*/}
+        <h1>{products.name}</h1> {/*me trae el nombre en un h1*/}
         <p>{products.color}</p> {/*me trae el nombre en un p*/}
 
     </div>
