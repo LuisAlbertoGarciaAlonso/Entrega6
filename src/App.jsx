@@ -1,34 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Header from './Components/Header/Header';
+import ItemListContainer from "./Components/ItemListContainer/ItemListContainer"
+import ItemCount from "../src/ItemCount/ItemCount"
+import ItemList from "../src/Components/ItemListContainer/ItemList"
+import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetail';
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Hola Mundo</h1>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <ItemListContainer greeting = "bienvenidos!"/>
+      <ItemCount/>
+      <ItemList/>
+      {/* <ItemDetailContainer/> lo activo y rompe el codigo a revisar porque */}
+
     </div>
     
   );
 }
 
 export default App; 
-
-
-//.jsx combinacion de js con html (JavaScript XML)
-//
-
-

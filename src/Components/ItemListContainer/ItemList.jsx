@@ -1,16 +1,16 @@
 import Item from "./Item"
 
 // const algoVaAPasar = () => {
-//     return new Promise((resolve, reject)=>{
-//         if(true){
-//             setTimeout(() =>{
-//                 resolve(products)
-//                 console.log("soy 5 seg, abajo sale los products")
-//             }, 5000)
+    // return new Promise((resolve, reject)=>{
+    //     if(true){
+    //         setTimeout(() =>{
+    //             resolve(products)
+    //             console.log("soy 5 seg, abajo sale los products")
+    //         }, 5000)
             
-//         }else{
-//             reject("hey, salio mal")
-//         }
+    //     }else{
+    //         reject("hey, salio mal")
+    //     }
 
         // if(status===200){
         //     resolve("hey, lo hice bien")
